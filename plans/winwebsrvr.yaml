@@ -18,7 +18,7 @@ steps:
 #    targets: $targets
   - upload: boltshop/mywebsite
     description: "Uploading the website to the appropriate folder."
-    destination: "C:\\inetpub"
+    destination: "C:\\inetpub\\wwwroot"
     targets: $targets
 #  - name: iis
 #    targets: $targets
