@@ -1,4 +1,4 @@
-#name: boltshop::build_webserver
+#name: bolt-workshop::build_webserver
 description: Deploys an IIS site and base configuration items.
 
 parameters:
