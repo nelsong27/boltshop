@@ -20,15 +20,15 @@ steps:
     description: "Uploading the website to the appropriate folder."
     destination: "C:\\inetpub"
     targets: $targets
-  - name: iis
-    targets: $targets
-    resources:
-      - iis_site: "Default Web Site"
-        parameters:
-          ensure: absent
-      - iis_site: "My Web Site"
-        parameters:
-          ensure: present
-          physicalpath: "C:\\inetpub\\mywebsite"
-          applicationpool: "DefaultAppPool"
+#  - name: iis
+#    targets: $targets
+#    resources:
+#      - iis_site: "Default Web Site"
+#        parameters:
+#          ensure: absent
+#      - iis_site: "My Web Site"
+#        parameters:
+#          ensure: present
+#          physicalpath: "C:\\inetpub\\mywebsite"
+#          applicationpool: "DefaultAppPool"
 return: $iis
