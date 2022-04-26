@@ -13,9 +13,9 @@ steps:
     parameters:
       action: install
       feature: Web-WebServer
-  - command: "if !(Test-Path C:\\inetpub\\mywebsite) {New-Item -ItemType Directory C:\\inetpub\\mywebsite -Force}"
-    description: "Creating new website directory."
-    targets: $targets
+#  - command: "if !(Test-Path C:\\inetpub\\mywebsite) {New-Item -ItemType Directory C:\\inetpub\\mywebsite -Force}"
+#    description: "Creating new website directory."
+#    targets: $targets
   - upload: boltshop/mywebsite
     description: "Uploading the website to the appropriate folder."
     destination: "C:\\inetpub"
