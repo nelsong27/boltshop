@@ -1,9 +1,0 @@
-{  
-	"description": "Say Hello World!",  
-	"parameters": {  
-  	"name": {  
-    	"description": "The name to say hello to. Defaults to 'World'.",  
-    	"type": "Optional[String]"  
-  	}     
-	}
- }

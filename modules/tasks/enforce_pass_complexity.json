@@ -1,9 +1,0 @@
-{
-	"description": "This task enforces password complexity - CIS compliant",
-	"parameters": {
-  	"name": {
-    	"description": "No parameters required",
-    	"type": "Optional[String]"
-  	}
-	}
- }
